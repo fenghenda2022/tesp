@@ -3,14 +3,14 @@ package com.example.demo;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
-@RequestMapping("hello2")
+@RequestMapping("hello4")
 public class HelloController {
     @RequestMapping("")
     public String hello() {
-        return "testc123";
+        return "jenkens test";
     }
-    @RequestMapping("/index1")
+    @RequestMapping("/index4")
     String index() {
-        return "Hello from index";
+        return "jenken test 2";
     }}
 
