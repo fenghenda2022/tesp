@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("")
     public String hello() {
-        return "jenkens test";
+        return "jenkens test 20240528";
     }
     @RequestMapping("/index4")
     String index() {
-        return "jenken test 2";
+        return "jenken test 20240528 2";
     }}
 
